@@ -332,7 +332,7 @@ ColVis.prototype = {
 		var groups = this.s.groups;
 		var hungarianGroups = this.s.aoGroups;
 		if ( groups ) {
-			for ( var i=0, ien=groups.length ; i<ien ; i++ ) {
+			for ( var i=0, iLen=groups.length ; i<iLen ; i++ ) {
 				if ( groups[i].title ) {
 					hungarianGroups[i].sTitle = groups[i].title;
 				}
@@ -358,7 +358,7 @@ ColVis.prototype = {
 		var groups = this.s.aoGroups;
 		var button;
 
-		for ( var i=0, ien=buttons.length ; i<ien ; i++ ) {
+		for ( var i=0, iLen=buttons.length ; i<iLen ; i++ ) {
 			button = buttons[i];
 
 			if ( button.__columnIdx !== undefined ) {
