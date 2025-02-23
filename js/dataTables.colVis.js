@@ -998,7 +998,7 @@ ColVis.defaults = {
 	fnLabel: null,
 
 	/**
-	 * Indicate if the column list should be positioned by Javascript,
+	 * Indicate if the column list should be positioned by JavaScript,
 	 * visually below the button or allow CSS to do the positioning
 	 *  @property bCssPosition
 	 *  @type     boolean
