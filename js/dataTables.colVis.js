@@ -38,7 +38,7 @@ var factory = function( $, DataTable ) {
  */
 var ColVis = function( oDTSettings, oInit )
 {
-	/* Santiy check that we are a new instance */
+	/* Sanity check that we are a new instance */
 	if ( !this.CLASS || this.CLASS != "ColVis" )
 	{
 		alert( "Warning: ColVis must be initialised with the keyword 'new'" );
