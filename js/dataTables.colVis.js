@@ -863,7 +863,7 @@ ColVis.prototype = {
 	"_fnAdjustOpenRows": function ()
 	{
 		var aoOpen = this.s.dt.aoOpenRows;
-		var iVisible = this.s.dt.oApi._fnVisbleColumns( this.s.dt );
+		var iVisible = this.s.dt.oApi._fnVisibleColumns( this.s.dt );
 
 		for ( var i=0, iLen=aoOpen.length ; i<iLen ; i++ ) {
 			aoOpen[i].nTr.getElementsByTagName('td')[0].colSpan = iVisible;
