@@ -366,17 +366,17 @@ ColVis.prototype = {
 			}
 		}
 
-		var allVisible = function ( columnIndeces ) {
-			for ( var k=0, kLen=columnIndeces.length ; k<kLen ; k++ )
+		var allVisible = function ( columnIndices ) {
+			for ( var k=0, kLen=columnIndices.length ; k<kLen ; k++ )
 			{
-				if (  columns[columnIndeces[k]].bVisible === false ) { return false; }
+				if (  columns[columnIndices[k]].bVisible === false ) { return false; }
 			}
 			return true;
 		};
-		var allHidden = function ( columnIndeces ) {
-			for ( var m=0 , mLen=columnIndeces.length ; m<mLen ; m++ )
+		var allHidden = function ( columnIndices ) {
+			for ( var m=0 , mLen=columnIndices.length ; m<mLen ; m++ )
 			{
-				if ( columns[columnIndeces[m]].bVisible === true ) { return false; }
+				if ( columns[columnIndices[m]].bVisible === true ) { return false; }
 			}
 			return true;
 		};
